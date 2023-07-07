@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+body{
+    background-color: black;
+    
+}
+
+
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+  }
+.navbar-brand{
+    font-family: Kaushan Script;
+    font-size: 40px;
+    margin-left: calc(75%  / 2);
+    margin-top: 10PX;
+    
+    
+    
+    
+    
+}
+
+.navbar-nav{
+
+    margin-top: 15px;
+    position: fixed;
+    
+}
+
+section{
+    padding-top: 120px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+   
+    
+}
+
+.box-text{
+
+    width: 700px;
+    height: 700px;
+    background-color: aliceblue;
+}
+
