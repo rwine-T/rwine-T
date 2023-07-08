@@ -4,6 +4,8 @@
 
 body{
     background-color: black;
+    padding: 0%;
+    margin: 0%;
     
 }
 
@@ -14,12 +16,13 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    margin-left: -15px;
     
   }
 .navbar-brand{
     font-family: Kaushan Script;
     font-size: 40px;
-    margin-left: calc(75%  / 2);
+    margin-left: calc(80%  / 2);
     margin-top: 10PX;
     
     
@@ -29,24 +32,37 @@ body{
 }
 
 .navbar-nav{
-
+      
     margin-top: 15px;
     position: fixed;
+    width:100%;
+    background-color:black;
+    margin-left: -15px;
+    padding: 15px;
+    
+    
+    
     
 }
-
+.custom-toggler .navbar-toggler-icon {
+    background-color: rgb(56, 55, 55);
+  }
+  
 section{
     padding-top: 120px;
     margin-top: 200px;
     margin-bottom: 200px;
+
    
     
 }
 
-.box-text{
 
-    width: 800px;
-    height: 800px;
+
+.box-text{
+   
+    width: 500px;
+    height: 500px;
     background-color: aliceblue;
 }
 
@@ -66,3 +82,11 @@ section{
 
 }
 
+footer{
+
+ width: auto;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left:auto;
+  
+}
