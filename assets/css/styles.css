@@ -6,10 +6,27 @@ body{
     background-color: black;
     padding: 0%;
     margin: 0%;
+    overflow-y: hidden;
     
 }
 
 
+
+
+#home {
+    
+ background-color: black;
+ z-index: 1000;
+ padding-top: 200px;
+ padding-bottom: 200px;
+  
+}
+
+#text-container{
+  justify-content: center;
+
+
+}
 
 .navbar {
     overflow: hidden;
@@ -22,9 +39,8 @@ body{
 .navbar-brand{
     font-family: Kaushan Script;
     font-size: 40px;
-    margin-left: calc(80%  / 2);
-    margin-top: 10PX;
-    
+    margin-left:calc(15% / 2);
+   
     
     
     
@@ -32,22 +48,47 @@ body{
 }
 
 .navbar-nav{
-      
-    margin-top: 15px;
+    justify-content: center;
+    margin-left: calc(40% / 2) ;
     position: fixed;
-    width:100%;
+    width: 100%;
     background-color:black;
-    margin-left: -15px;
     padding: 15px;
-    
-    
-    
-    
+     
+   
+        
 }
+
+.nav-link{
+
+  font-family: Kaushan Script;
+  font-size: 18px;
+  
+  
+}
+
+
+.nav-item .nav-link:hover{
+  background-color: rgb(56, 55, 55);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+  
+}
+
+
+
+
+
+
 .custom-toggler .navbar-toggler-icon {
     background-color: rgb(56, 55, 55);
   }
+ 
   
+
+
 section{
     padding-top: 120px;
     margin-top: 200px;
@@ -80,6 +121,23 @@ section{
   border-radius: 5px;
 
 
+}
+
+#enter{
+  font-family: Kaushan Script;
+  border: none;
+  padding: 12px 32px;
+  text-decoration: none;
+  margin-left: calc(60% / 2);
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: center;
+  color: white;
+
+  
+ 
 }
 
 footer{
