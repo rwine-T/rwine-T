@@ -1,0 +1,16 @@
+#text-container {
+    text-align: center;
+    margin-top: 200px;
+}
+
+#text {
+    font-size: 36px;
+    font-weight: bold;
+    opacity: 0;
+    animation: showText 2s forwards;
+}
+
+@keyframes showText {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+body{
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    overflow-y: hidden;
+    
+}
+
+
+
+
+#home {
+    
+ background-color: black;
+ z-index: 1000;
+ padding-top: 200px;
+ padding-bottom: 200px;
+  
+}
+
+#text-container{
+  justify-content: center;
+
+
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-left: -15px;
+    
+  }
+.navbar-brand{
+    font-family: Kaushan Script;
+    font-size: 40px;
+    margin-left:calc(15% / 2);
+   
+    
+    
+    
+    
+}
+
+.navbar-nav{
+    justify-content: center;
+    margin-left: calc(40% / 2) ;
+    position: fixed;
+    width: 100%;
+    background-color:black;
+    padding: 15px;
+     
+   
+        
+}
+
+.nav-link{
+
+  font-family: Kaushan Script;
+  font-size: 18px;
+  
+  
+}
+
+
+.nav-item .nav-link:hover{
+  background-color: rgb(56, 55, 55);
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+  
+}
+
+
+
+
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-color: rgb(56, 55, 55);
+  }
+ 
+  
+
+
+section{
+    padding-top: 120px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+   
+    
+}
+
+
+
+.box-text{
+   
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+}
+
+.button{
+  background-color: #3f3d3d; 
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+
+
+}
+
+#enter{
+  font-family: Kaushan Script;
+  border: none;
+  padding: 12px 32px;
+  text-decoration: none;
+  margin-left: calc(60% / 2);
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: center;
+  color: white;
+
+  
+ 
+}
+
+footer{
+
+ width: auto;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left:auto;
+  
+}
