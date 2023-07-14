@@ -1,5 +1,8 @@
 const textElement = document.getElementById('text');
-const text = 'Bonjour, bienvenue sur mon site !';
+const text = 'Here's a little song I wrote
+You might want to sing it note for note
+Don't worry, be happy
+In every life we have some trouble…';
 let index = 0;
 
 function displayText() {
